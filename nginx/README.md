@@ -1,7 +1,7 @@
 
-1. docker-compose up -d
-2. docker-compose exec nginx apk add bash
-3. docker-compose exec nginx bash
+1. docker-compose up -d.
+2. docker-compose exec nginx apk add bash.
+3. docker-compose exec nginx bash.  
 **↣ apk add vim.**
 
 vim /etc/nginx/conf.d/default.conf
