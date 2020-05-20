@@ -1,10 +1,8 @@
-## Setup
-   
-docker-compose up -d
-docker-compose exec nginx apk add bash
-docker-compose exec nginx bash
-  apk add vim
 
+1. docker-compose up -d
+2. docker-compose exec nginx apk add bash
+3. docker-compose exec nginx bash
+**↣ apk add vim.**
 
 vim /etc/nginx/conf.d/default.conf
 
@@ -25,5 +23,7 @@ server {
 }
 ```
 
-nginx -t 
-nginx -s reload
+> Tips
+
+- nginx -t 
+- nginx -s reload
